@@ -1,0 +1,32 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-US'
+title = 'St. John the Baptist Orthodox Mission, Toowoomba'
+
+[build]
+  [[build.cachebusters]]
+    source = 'layouts/.*'
+    target = 'css'
+
+[markup]
+    [markup.highlight]
+        style = 'github'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

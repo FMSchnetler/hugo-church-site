@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta name="description" content="{{ .Description }}" />
+{{ $t := debug.Timer "tailwindcss" }}
+{{ with resources.Get "css/styles.css" }}
+  {{ $opts := dict
+    "inlineImports" true
+    "optimize" (not hugo.IsDevelopment)
+  }}
+  {{ with . | css.TailwindCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" />
+    {{ else }}
+      {{ with . | minify | fingerprint }}
+        <link
+          rel="stylesheet"
+          href="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous" />
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $t.Stop }}
+{{/*  {{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}  */}}

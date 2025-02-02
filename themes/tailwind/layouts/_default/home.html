@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="mx-auto max-w-[90ch] rounded-lg bg-slate-50 p-2 md:p-6">
+	<h1 class="mb-4 text-3xl font-bold tracking-tight text-black uppercase">
+		{{ .Title }}
+	</h1>
+	<div class="markdown">{{ .Content }}</div>
+</article>
+
+{{/* {{ range site.RegularPages }}
+<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+{{ .Summary }} {{ end }} */}} {{ end }}

@@ -1,0 +1,39 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'St. John the Baptist Orthodox Mission'
+theme = 'tailwind'
+
+[build]
+  [[build.cachebusters]]
+    source = 'layouts/.*'
+    target = 'css'
+    
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'About Us'
+pageRef = '/about'
+weight = 20
+
+[[menus.main]]
+name = 'Schedule'
+pageRef = '/schedule'
+weight = 30
+
+[[menus.main]]
+name = 'About Orthodoxy'
+pageRef = '/orthodoxy'
+weight = 40
+
+[[menus.main]]
+name = 'Stewardship'
+pageRef = '/stewardship'
+weight = 50
+
+[[menus.main]]
+name = 'Contact Us'
+pageRef = '/contact'
+weight = 60
