@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'St. John the Baptist Orthodox Mission'
+title = "St. John's Orthodox Mission"
 theme = 'tailwind'
 
 [build]
@@ -27,6 +27,11 @@ weight = 30
 name = 'About Orthodoxy'
 pageRef = '/orthodoxy'
 weight = 40
+
+[[menus.main]]
+name = 'Prayer'
+pageRef = '/prayer'
+weight = 45
 
 [[menus.main]]
 name = 'Stewardship'

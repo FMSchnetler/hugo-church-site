@@ -1,13 +1,13 @@
 .markdown {
-	@apply font-serif text-gray-900;
+	@apply font-serif text-stone-900;
 
-	h1,
+	/* h1,
 	h2,
 	h3,
 	h4,
 	h5 {
 		@apply font-sans tracking-tight;
-	}
+	} */
 
 	h1 {
 		@apply text-3xl font-bold;
@@ -47,15 +47,15 @@
 	}
 
 	p {
-		@apply mt-2 text-base leading-relaxed;
+		@apply mt-2 text-lg font-medium leading-relaxed;
 	}
 
 	a {
-		@apply text-blue-600 underline;
+		@apply text-avo-600 underline;
 	}
 
 	a:hover {
-		@apply text-blue-800;
+		@apply text-avo-800;
 	}
 
 	ul {
@@ -71,7 +71,7 @@
 	}
 
 	blockquote {
-		@apply mt-6 mb-8 border-l-2 border-gray-200 pl-3;
+		@apply mt-6 mb-8 border-l-2 border-stone-200 pl-3;
 	}
 
 	.highlight {
@@ -87,7 +87,7 @@
 	}
 
 	pre:has(code) {
-		@apply m-4 overflow-x-auto rounded-lg bg-gray-100 p-2;
+		@apply m-4 overflow-x-auto rounded-lg bg-stone-100 p-2;
 	}
 
 	pre {
@@ -97,6 +97,6 @@
 	}
 
 	code {
-		@apply rounded-md bg-gray-200 px-1 text-green-800;
+		@apply rounded-md bg-stone-200 px-1 text-green-800;
 	}
 }
