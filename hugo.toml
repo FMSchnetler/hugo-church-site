@@ -18,10 +18,10 @@ name = 'About Us'
 pageRef = '/about'
 weight = 20
 
-[[menus.main]]
-name = 'Schedule'
-pageRef = '/schedule'
-weight = 30
+# [[menus.main]]
+# name = 'Schedule'
+# pageRef = '/schedule'
+# weight = 30
 
 [[menus.main]]
 name = 'About Orthodoxy'
@@ -38,7 +38,7 @@ name = 'Stewardship'
 pageRef = '/stewardship'
 weight = 50
 
-[[menus.main]]
-name = 'Contact Us'
-pageRef = '/contact'
-weight = 60
+# [[menus.main]]
+# name = 'Contact Us'
+# pageRef = '/contact'
+# weight = 60

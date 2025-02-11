@@ -1,14 +1,6 @@
 .markdown {
 	@apply font-serif text-stone-900;
 
-	/* h1,
-	h2,
-	h3,
-	h4,
-	h5 {
-		@apply font-sans tracking-tight;
-	} */
-
 	h1 {
 		@apply text-3xl font-bold;
 	}
@@ -47,7 +39,7 @@
 	}
 
 	p {
-		@apply mt-2 text-lg font-medium leading-relaxed;
+		@apply mt-2 text-lg font-medium;
 	}
 
 	a {
@@ -94,6 +86,10 @@
 		code {
 			@apply bg-inherit font-mono text-sm;
 		}
+	}
+
+	img {
+		@apply md:w-4/5 mx-auto my-3 md:my-7 rounded-lg border-3 border-avo-600
 	}
 
 	code {
