@@ -2,10 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 @import "tailwindcss";
 
+@font-face {
+	font-family: "TolkienesqueNew";
+	src:
+		url("../fonts/TolkienesqueNew.woff2") format("woff2"),
+		url("../fonts/TolkienesqueNew.woff") format("woff"),
+		url("../fonts/TolkienesqueNew.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 @theme {
 	--font-serif: "EB Garamond", "Georgia", serif;
-	--font-fancy: "EB Garamond", "Georgia", serif;
-
+	--font-fancy: "TolkienesqueNew", "EB Garamond", "Georgia", serif;
 	--color-avo-50: #f5f6ef;
 	--color-avo-100: #e8eadd;
 	--color-avo-200: #d3d7bf;
@@ -17,7 +26,7 @@
 	--color-avo-800: #3f452f;
 	--color-avo-900: #373c2b;
 	--color-avo-950: #1c1f14;
-
+ 
 	--color-brown-50: #f9f6f1;
 	--color-brown-100: #eee6d7;
 	--color-brown-200: #dbcbac;
@@ -39,7 +48,8 @@
 .scrollbar-gutter-stable {
 	scrollbar-gutter: stable;
 }
- */
+*/
+
 body {
 	@apply antialiased;
 }
