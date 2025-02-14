@@ -44,6 +44,16 @@
 	font-variant-caps: small-caps;
 }
 
+#mobile-menu {
+	transition: height 0.3s ease-in;
+	height: 0px;
+	overflow-y: hidden;
+}
+
+#mobile-menu.open {
+	height: auto;
+}
+
 /* 
 .scrollbar-gutter-stable {
 	scrollbar-gutter: stable;
@@ -51,6 +61,8 @@
 */
 
 body {
+	/* https://developer.chrome.com/docs/css-ui/animate-to-height-auto */
+	interpolate-size: allow-keywords;
 	@apply antialiased;
 }
 
