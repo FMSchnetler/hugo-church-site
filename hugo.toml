@@ -24,7 +24,7 @@ weight = 20
 # weight = 30
 
 [[menus.main]]
-name = 'About Orthodoxy'
+name = 'Orthodoxy'
 pageRef = '/orthodoxy'
 weight = 40
 
