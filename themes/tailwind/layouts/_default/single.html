@@ -1,8 +1,18 @@
 {{ define "main" }} {{/* {{ $dateMachine := .Date | time.Format
 "2006-01-02T15:04:05-07:00" }} {{ $dateHuman := .Date | time.Format ":date_long"
 }} */}} {{/* <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> */}}
-<article class="mx-auto max-w-[90ch] border-2 border-avo-600 rounded-lg bg-stone-50 p-2 md:p-6">
-	<h1 class="mb-4 text-2xl font-serif font-bold tracking-wide text-stone-800">
+<article
+	class="border-avo-600 relative mx-auto max-w-[90ch] rounded-lg border-2 bg-stone-50 p-2 md:p-6 sm:mt-25" 
+>
+	{{/*
+	https://stackoverflow.com/questions/43761169/center-image-on-border-of-a-div
+	*/}}
+	<img
+		src="/img/stjohn.png"
+		class="hidden xs:block absolute top-[-80px] right-[25px] max-w-[125px] sm:top-[-20px] sm:left-1/2 sm:max-w-[150px] sm:-translate-1/2"
+	/>
+
+	<h1 class="mb-4 font-serif text-2xl font-bold tracking-wide text-stone-800">
 		{{ .Title }}
 	</h1>
 	<div class="markdown">{{ .Content }}</div>

@@ -79,10 +79,8 @@ Renders a menu for the given menu ID.
     <div class="sm:hidden" id="mobile-menu">
       <div class="space-y-1 px-2 pt-2 pb-3 ">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Dashboard</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Team</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-        <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a>
+        {{- partial "inline/menu/mobilenav.html" (dict "page" $page "menuEntries" .) }}
+
       </div>
     </div>
   </nav>
@@ -96,7 +94,7 @@ Renders a menu for the given menu ID.
     {{- $attrs := dict "href" .URL }}
 
     {{- if $page.IsMenuCurrent .Menu . }}
-      {{- $attrs = merge $attrs (dict "class" "rounded-md px-3 py-2 font-serif text-lg font-medium bg-brown-900 text-stone-200" "aria-current" "page") }}
+      {{- $attrs = merge $attrs (dict "class" "rounded-md px-3 py-2 font-serif tracking-wider text-lg font-medium bg-brown-900 text-stone-200" "aria-current" "page") }}
     {{- else if $page.HasMenuCurrent .Menu .}}
       {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
     {{- end }}
@@ -112,12 +110,40 @@ Renders a menu for the given menu ID.
           {{- printf " %s=%q" $k $v | safeHTMLAttr }}
         {{- end }}
       {{- end -}}
-      class="rounded-md px-3 py-2 font-serif text-lg font-medium text-stone-200 hover:bg-brown-700 hover:text-stone-100"
+      class="rounded-md px-3 py-2 font-serif text-lg sa font-medium tracking-wider text-stone-200 hover:bg-brown-700 hover:text-stone-100"
     >{{ $name }}</a>
     {{/*  {{- with .Children }}
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}  */}}
   {{- end }}
 
+{{- end }}
+
+{{- define "partials/inline/menu/mobilenav.html" }}
+  {{- $page := .page }}
+  {{- $menuID := .menuID }}
+      {{- range .menuEntries }}
+        {{- $attrs := dict "href" .URL }}
+
+        {{- if $page.IsMenuCurrent .Menu . }}
+          {{- $attrs = merge $attrs (dict "class" "block rounded-md bg-brown-900 small-caps font-serif px-3 py-2 text-base tracking-widest font-bold text-white" "aria-current" "page") }}
+        {{- else if $page.HasMenuCurrent .Menu .}}
+          {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
+        {{- end }}
+        {{- $name := .Name }}
+        {{- with .Identifier }}
+          {{- with T . }}
+            {{- $name = . }}
+          {{- end }}
+        {{- end }}
+        <a 
+          {{- range $k, $v := $attrs }}
+            {{- with $v }}
+              {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+            {{- end }}
+          {{- end -}}
+          class="block rounded-md small-caps font-serif px-3 py-2 text-base tracking-widest font-bold text-stone-300 hover:bg-avo-800 hover:text-white"
+        >{{ $name }}</a>
+  {{- end }}
 {{- end }}
 
 

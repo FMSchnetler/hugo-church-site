@@ -13,6 +13,8 @@
 }
 
 @theme {
+	--breakpoint-xs: 23rem;
+
 	--font-serif: "EB Garamond", "Georgia", serif;
 	--font-fancy: "TolkienesqueNew", "EB Garamond", "Georgia", serif;
 	--color-avo-50: #f5f6ef;
