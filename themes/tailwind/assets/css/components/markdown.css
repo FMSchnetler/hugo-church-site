@@ -1,5 +1,5 @@
 .markdown {
-	@apply font-serif text-stone-900;
+	@apply text-stone-900;
 
 	h1 {
 		@apply text-3xl font-bold;
