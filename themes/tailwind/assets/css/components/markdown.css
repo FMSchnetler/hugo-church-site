@@ -62,6 +62,10 @@
 		@apply mb-2;
 	}
 
+	li {
+		@apply text-base md:text-lg font-medium
+	}
+
 	blockquote {
 		@apply mt-6 mb-8 border-l-2 border-stone-200 pl-3;
 	}
@@ -89,7 +93,7 @@
 	}
 
 	img {
-		@apply md:w-4/5 mx-auto my-3 md:my-7 rounded-lg border-3 border-avo-600
+		@apply md:max-w-4/5 w-auto h-auto max-h-[400px] mx-auto my-3 md:my-7 rounded-lg border-3 border-avo-600
 	}
 
 	code {

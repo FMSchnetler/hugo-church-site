@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-US'
-title = 'St. John the Baptist Orthodox Mission, Toowoomba'
+title = 'St. John the Baptist Orthodox Church'
 
 [build]
   [[build.cachebusters]]

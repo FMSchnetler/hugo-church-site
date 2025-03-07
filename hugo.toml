@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = "St. John's Orthodox Mission"
+title = "St. John's Orthodox Church"
 theme = 'tailwind'
 
 [build]

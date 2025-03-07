@@ -12,7 +12,7 @@ Renders a menu for the given menu ID.
 {{- with index site.Menus $menuID }}
   <nav class="bg-brown-800 border-b-3 border-avo-600">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-      <div class="relative flex h-16 items-center justify-between">
+      <div class="relative flex h-16 items-center">
         <div class="flex items-center sm:hidden">
           <!-- Mobile menu button-->
           <button id="mobile-menu-burger" onclick="toggleNav()" type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-stone-400 hover:bg-stone-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false">
@@ -38,17 +38,17 @@ Renders a menu for the given menu ID.
           <div class="absolute left-[45px] top-[10px]">
             <div class="relative">
               <span class="text-stone-100 text-sm tracking-wider font-fancy">St. John the Baptist</span>
-              <span class="absolute left-[8px] top-[22px] text-stone-100 text-sm tracking-wider font-fancy">Orthodox Mission</span>
+              <span class="absolute left-[8px] top-[22px] text-stone-100 text-sm tracking-wider font-fancy">Orthodox Church</span>
 
             </div>
           </div>
         </div>
-        <div class="flex flex-1 items-center justify-center">
+        <div class="flex-1 flex items-center justify-center">
           {{/*  <div class="flex shrink-0 items-center sm:items-stretch sm:justify-start">
             <img class="h-8 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
           </div>  */}}
-          <div class="hidden sm:ml-6 sm:block">
-            <div class="flex space-x-4">
+          <div class="hidden sm:ml-6 sm:block w-full">
+            <div class="flex justify-center space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               {{/*  <a href="#" class="rounded-md bg-stone-900 text-stone-300 px-3 py-2 text-sm font-medium text-stone" aria-current="page">Dashboard</a>  */}}
 
@@ -56,22 +56,13 @@ Renders a menu for the given menu ID.
             </div>
           </div>
         </div>
-        <div class="flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          {{/*  <button type="button" class="relative rounded-full bg-stone-800 p-1 text-stone-400 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-stone-800 focus:outline-hidden">
-            <span class="absolute -inset-1.5"></span>
-            <span class="sr-only">View notifications</span>
-            {{/*  <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
-            </svg>  */}}
-            {{/*                <a href="https://www.facebook.com/OrthodoxToowoomba" class="hover:text-stone-200 text-brown-900">
- */}} 
-
-              
-              <a href="https://www.facebook.com/OrthodoxToowoomba" class="hover:text-stone-200 text-brown-900">
-              <svg class="size-8" fill="var(--color-brown-950)" viewBox="0 0 20 20" stroke-width="0.3"  stroke="currentColor" aria-hidden="true" data-slot="icon">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17 1H3c-1.1 0-2 .9-2 2v14c0 1.101.9 2 2 2h7v-7H8V9.525h2v-2.05c0-2.164 1.212-3.684 3.766-3.684l1.803.002v2.605h-1.197c-.994 0-1.372.746-1.372 1.438v1.69h2.568L15 12h-2v7h4c1.1 0 2-.899 2-2V3c0-1.1-.9-2-2-2z"></path>
-                </svg></a>
-          {{/*  </button>  */}}
+        <div class="absolute right-2 sm:right-8">
+          <a href="https://www.facebook.com/OrthodoxToowoomba" class="hover:text-stone-200 text-brown-900">
+            <svg class="size-8" fill="var(--color-brown-950)" viewBox="0 0 20 20" stroke-width="0.3"  stroke="currentColor" aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 1H3c-1.1 0-2 .9-2 2v14c0 1.101.9 2 2 2h7v-7H8V9.525h2v-2.05c0-2.164 1.212-3.684 3.766-3.684l1.803.002v2.605h-1.197c-.994 0-1.372.746-1.372 1.438v1.69h2.568L15 12h-2v7h4c1.1 0 2-.899 2-2V3c0-1.1-.9-2-2-2z"></path>
+            </svg>
+          </a>
+        </div>
       </div>
     </div>
 
