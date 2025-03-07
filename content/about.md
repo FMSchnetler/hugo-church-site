@@ -10,7 +10,7 @@ We are an Orthodox Christian congregation living the ancient, biblical faith of 
 
 At present, we are the only Orthodox church in the Darling Downs region, with around 20 people in attendance when we celebrate the Divine Liturgy. 
 
-![The congregation in the Divine Liturgy.](/img/congregation_liturgy.jpg "The congregation in the Divine Liturgy")
+{{< figure src="/img/congregation_liturgy.jpg" title="The congregation in the Divine Liturgy" >}}
 
 #### What to expect at our services
 
@@ -28,7 +28,7 @@ Resident in Toowoomba, our Parish Priest is Fr. Erich Fein, who leads our commun
 
 Our Mission is within the Australian Diocese of the [Russian Orthodox Church Outside Russia](https://www.rocor.org.au/), overseen by [Archbishop George (Schaefer) of Sydney, Australia & New Zealand](https://orthodoxwiki.org/George_(Schaefer)_of_Sydney).
 
-![Fr. Erich blessing the faithful with the chalice.](/img/frerich_chalice2.jpg "Fr. Erich blessing the faithful with the chalice.")
+{{< figure src="/img/frerich_chalice2.jpg" title="Fr. Erich blessing the faithful with the chalice" >}}
 
 
 
@@ -36,10 +36,10 @@ Our Mission is within the Australian Diocese of the [Russian Orthodox Church Out
 
 Our Mission is dedicated to the Glorious Forerunner of Christ, St. John the Baptist, under whom Christ himself deigned to be baptised in the Jordan. We celebrate our patronal feast on his [Nativity](https://www.johnsanidopoulos.com/2019/06/homily-on-nativity-of-saint-john.html) in July. 
 
-![The icon of our patron St. John the Baptist at the mission.](/img/stjohn_icon_stand.jpg "The icon of our patron St. John the Baptist at the mission")
+{{< figure src="/img/stjohn_icon_stand.jpg" title="The icon of our patron St. John the Baptist at the church" >}}
 
 Here are some edifying words from St. Theophan the Recluse on St. John:
-> Saint John bore witness of Christ Jesus, that He is in truth "the Lamb of God, Which taketh away the sin of the world" (John 1:29), that He is the promised Deliverer, awaited by all. Those who were near him heard this and believed. From them this witness passed on to the people, and everyone began to think that he of whom John bore witness was not an ordinary man. The Savior pointed this out when in the last days in the temple, he proposed to the heads of the temple a question: whence was the baptism of John, from heaven or of men? (cf. Mark 11:29) They refrained from answering, because it was impossible for them not to see that John came baptizing with water not of himself. But if they were to say this, they would immediately have to acknowledge John’s testimony that the Promised One was before them, and therefore be compelled to submit to His teaching. But they did not want to submit, not for any well-founded reasons, but solely because of their prejudice. But their obstinacy does not in the least lessen the power of the witness of St. John. To this day, it is as certain as it was when it came forth from his mouth. We hearken unto John who shows us the true Deliverer; and through this we enliven our faith, as a faith which has tangible proof behind it.
+> Saint John bore witness of Christ Jesus, that He is in truth "the Lamb of God, Which taketh away the sin of the world" (John 1:29), that He is the promised Deliverer, awaited by all. Those who were near him heard this and believed. From them this witness passed on to the people, and everyone began to think that he of whom John bore witness was not an ordinary man. The Savior pointed this out when in the last days in the temple, he proposed to the heads of the temple a question: whence was the baptism of John, from heaven or of men? (cf. Mark 11:29) They refrained from answering, because it was impossible for them not to see that John came baptizing with water not of himself. But if they were to say this, they would immediately have to acknowledge John's testimony that the Promised One was before them, and therefore be compelled to submit to His teaching. But they did not want to submit, not for any well-founded reasons, but solely because of their prejudice. But their obstinacy does not in the least lessen the power of the witness of St. John. To this day, it is as certain as it was when it came forth from his mouth. We hearken unto John who shows us the true Deliverer; and through this we enliven our faith, as a faith which has tangible proof behind it.
 
 May St. John pray to God for us.
 

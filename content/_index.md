@@ -15,4 +15,4 @@ For more information or to arrange a one-on-one conversation with our parish pri
 **Email:** [&#x74;&#x6F;&#x6F;&#x77;&#x6F;&#x6F;&#x6D;&#x62;&#x61;&#x40;&#x68;&#x6F;&#x6C;&#x79;&#x61;&#x6E;&#x6E;&#x75;&#x6E;&#x63;&#x69;&#x61;&#x74;&#x69;&#x6F;&#x6E;&#x2E;&#x6E;&#x65;&#x74;](&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x74;&#x6F;&#x6F;&#x77;&#x6F;&#x6F;&#x6D;&#x62;&#x61;&#x40;&#x68;&#x6F;&#x6C;&#x79;&#x61;&#x6E;&#x6E;&#x75;&#x6E;&#x63;&#x69;&#x61;&#x74;&#x69;&#x6F;&#x6E;&#x2E;&#x6E;&#x65;&#x74;)\
 **Facebook:** [facebook.com/OrthodoxToowoomba](https://www.facebook.com/OrthodoxToowoomba) *(best location for service updates)*
 
-![Fr. Erich reading the Gospel at the Divine Liturgy](/img/frerich_gospel.jpg "Fr. Erich reading the Gospel at the Divine Liturgy")
+{{< figure src="/img/frerich_gospel.jpg" title="Fr. Erich reading the Gospel at the Divine Liturgy" >}}

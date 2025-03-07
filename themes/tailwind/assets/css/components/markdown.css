@@ -93,7 +93,7 @@
 	}
 
 	img {
-		@apply md:max-w-4/5 w-auto h-auto max-h-[400px] mx-auto my-3 md:my-7 rounded-lg border-3 border-avo-600
+		@apply md:max-w-4/5 w-auto h-auto max-h-[400px] mx-auto my-3 md:mt-7 md:mb-3 rounded-lg border-3 border-avo-600
 	}
 
 	code {
