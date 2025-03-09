@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = "St. John's Orthodox Church"
+title = "St. John the Baptist Orthodox Church"
 theme = 'tailwind'
 
 [module.hugoVersion]
