@@ -20,15 +20,16 @@ At present, we are the only Orthodox church in the Darling Downs region, with ar
 - It is customary, but not mandatory, for men to wear long sleeve button up shirts and trousers and for women to wear headscarves and maxi dresses or ankle length skirts.
 
 All of that aside, we will not be carefully looking at anyone for how they act, but instead focussing on our own spiritual state. -->
+
 If it's your first time coming please stay for tea so we can get to know you and answer any questions you may have. 
 
 ### Our Clergy & Diocese
 
 Resident in Toowoomba, our Parish Priest is Fr. Erich Fein, who leads our community through celebrating sacraments & services, providing pastoral care, teaching the faithful, and otherwise administering the Mission.
+{{< figure src="/img/frerich_chalice2.jpg" title="Fr. Erich blessing the faithful with the chalice" >}}
 
 Our Mission is within the Australian Diocese of the [Russian Orthodox Church Outside Russia](https://www.rocor.org.au/), overseen by [Archbishop George (Schaefer) of Sydney, Australia & New Zealand](https://orthodoxwiki.org/George_(Schaefer)_of_Sydney).
 
-{{< figure src="/img/frerich_chalice2.jpg" title="Fr. Erich blessing the faithful with the chalice" >}}
 
 
 
