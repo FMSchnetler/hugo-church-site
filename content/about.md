@@ -10,17 +10,17 @@ We are an Orthodox Christian congregation living the ancient, biblical faith of 
 
 At present, we are the only Orthodox church in the Darling Downs region, with around 20 people in attendance when we celebrate the Divine Liturgy. 
 
-{{< figure src="/img/congregation_liturgy.jpg" title="The congregation in the Divine Liturgy" >}}
+{{< figure src="/img/baptism.jpg" title="Three newly baptised christians in January 2025" >}}
 
-#### What to expect at our services
+<!-- #### What to expect at our services
 
 - Our services are longer than some may expect that have a background in other denominations, Vespers is usually just over 1 hour in length and the Divine Liturgy around 2 hours.
 - We do not have pews, though newcomers are welcome to use the available seating.
 - Our services are performed acapella, without any accompanying instruments, in a liturgical responsary style.
 - It is customary, but not mandatory, for men to wear long sleeve button up shirts and trousers and for women to wear headscarves and maxi dresses or ankle length skirts.
 
-All of that aside, we will not be carefully looking at anyone for how they act, but instead focussing on our own spiritual state.
-If it's your first time coming please stay for tea so we can get to know you and answer any question you may have. 
+All of that aside, we will not be carefully looking at anyone for how they act, but instead focussing on our own spiritual state. -->
+If it's your first time coming please stay for tea so we can get to know you and answer any questions you may have. 
 
 ### Our Clergy & Diocese
 

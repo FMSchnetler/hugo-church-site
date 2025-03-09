@@ -3,16 +3,17 @@ languageCode = 'en-us'
 title = "St. John's Orthodox Church"
 theme = 'tailwind'
 
+[params]
+  description = "St. John the Baptist Orthodox Church in Toowoomba is a welcoming Orthodox Christian community serving the Darling Downs region. Join us for Divine Liturgy on Sundays and Vespers on Saturdays."
+  keywords = ["Orthodox Church", "Toowoomba", "Divine Liturgy", "Orthodox Christian", "St John the Baptist", "Russian Orthodox", "ROCOR", "Darling Downs"]
+  author = "St. John the Baptist Orthodox Church"
+  images = ["/img/stjohn.png"]
+
 [build]
   [[build.cachebusters]]
     source = 'layouts/.*'
     target = 'css'
     
-[[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
-
 [[menus.main]]
 name = 'About Us'
 pageRef = '/about'

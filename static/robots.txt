@@ -1,0 +1,16 @@
+# Allow all web crawlers to access the site
+User-agent: *
+Allow: /
+
+# Prevent crawling of error pages
+Disallow: /404.html
+
+# Prevent crawling of any admin or private areas (if they exist)
+Disallow: /admin/
+Disallow: /private/
+
+# Point to the sitemap (Hugo automatically generates this)
+Sitemap: https://example.org/sitemap.xml
+
+# Add reasonable crawl delay to prevent overwhelming the server
+Crawl-delay: 10 
