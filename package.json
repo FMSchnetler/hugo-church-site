@@ -6,6 +6,9 @@
 		"prettier-plugin-tailwindcss": "^0.6.11",
 		"tailwindcss": "^4.0.3"
 	},
+	"engines": {
+		"hugo": ">=0.142.0"
+	},
 	"prettier": {
 		"editor": {},
 		"tabWidth": 4,
