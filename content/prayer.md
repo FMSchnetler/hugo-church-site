@@ -1,6 +1,5 @@
 +++
 date = '2025-02-02T19:22:01+10:00'
-draft = true
 title = 'Prayer'
 +++
 
