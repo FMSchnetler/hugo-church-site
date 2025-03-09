@@ -52,6 +52,7 @@
   ]
 }
 </script>
+
 {{ $t := debug.Timer "tailwindcss" }}
 {{ with resources.Get "css/styles.css" }}
   {{ $opts := dict
@@ -74,3 +75,6 @@
 {{ end }}
 
 {{ $t.Stop }}
+
+{{ $figure := resources.Get "js/figure.js" | js.Build | minify | fingerprint }}
+<script src="{{ $figure.RelPermalink }}" integrity="{{ $figure.Data.Integrity }}" crossorigin="anonymous"></script>

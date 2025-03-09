@@ -1,0 +1,48 @@
+.figure-container {
+  position: relative;
+}
+
+.figure-wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+.figure-wrapper.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.figure-wrapper.fullscreen img {
+  max-height: 90vh;
+  max-width: 90vw;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: sepia(0%);
+}
+
+/* Tailwind md breakpoint (max-width: 768px) */
+@media (min-width: 768px) {
+  .figure-wrapper.fullscreen img {
+    max-height: 75vh;
+    max-width: 80vw;
+  }
+}
+
+.figure-wrapper.fullscreen figcaption {
+  color: white;
+  margin-top: 1rem;
+}
+
+.figure-wrapper:not(.fullscreen):hover img {
+  transform: scale(1.02);
+}
