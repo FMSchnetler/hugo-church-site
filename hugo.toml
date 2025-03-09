@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = "St. John's Orthodox Church"
 theme = 'tailwind'
 
+[module.hugoVersion]
+extended = true
+min = '0.142.0'
+
 [params]
   description = "St. John the Baptist Orthodox Church in Toowoomba is a welcoming Orthodox Christian community serving the Darling Downs region. Join us for Divine Liturgy on Sundays and Vespers on Saturdays."
   keywords = ["Orthodox Church", "Toowoomba", "Divine Liturgy", "Orthodox Christian", "St John the Baptist", "Russian Orthodox", "ROCOR", "Darling Downs"]
