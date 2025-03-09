@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://delightful-beach-090b6c500.6.azurestaticapps.net/'
 languageCode = 'en-us'
 title = "St. John the Baptist Orthodox Church"
 theme = 'tailwind'
