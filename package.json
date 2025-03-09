@@ -14,5 +14,8 @@
 			"prettier-plugin-go-template",
 			"prettier-plugin-tailwindcss"
 		]
+	},
+	"scripts" : {
+		"build" : "hugo"
 	}
 }
