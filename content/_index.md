@@ -3,7 +3,13 @@ title = 'Welcome Home'
 date = '2025-02-01T20:52:30+10:00'
 +++
 
-We are a group of Orthodox Christians who live in the Toowoomba and Darling Downs region, regularly worshipping together every weekend at Vespers on Saturdays at 6pm and at **the Divine Liturgy on Sundays from 9am at [5 Fletcher St, Redwood.](https://maps.app.goo.gl/vBvRhHkqEjuHWXN1A)**
+We are a group of Orthodox Christians who live in the Toowoomba and Darling Downs region, worshipping together every weekend. Regularly scheduled services are:
+
+**Saturday:** 6pm Vespers\
+**Sunday:** 9am Divine Liturgy\
+**Location:** **[5 Fletcher St, Redwood.](https://maps.app.goo.gl/vBvRhHkqEjuHWXN1A)**
+
+{{< figure src="/img/frerich_gospel.jpg" title="Fr. Erich reading the Gospel at the Divine Liturgy" >}}
 
 We usually have about 20 people present at the Divine Liturgy and all our services are in the English language. All people of good will are welcome to our services. If you are an Orthodox Christian, or if you want to find out more about how the original faith of the apostles is practiced today, we welcome you to join us.
 
@@ -15,4 +21,3 @@ For more information or to arrange a one-on-one conversation with our parish pri
 **Email:** [&#x74;&#x6F;&#x6F;&#x77;&#x6F;&#x6F;&#x6D;&#x62;&#x61;&#x40;&#x68;&#x6F;&#x6C;&#x79;&#x61;&#x6E;&#x6E;&#x75;&#x6E;&#x63;&#x69;&#x61;&#x74;&#x69;&#x6F;&#x6E;&#x2E;&#x6E;&#x65;&#x74;](&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x74;&#x6F;&#x6F;&#x77;&#x6F;&#x6F;&#x6D;&#x62;&#x61;&#x40;&#x68;&#x6F;&#x6C;&#x79;&#x61;&#x6E;&#x6E;&#x75;&#x6E;&#x63;&#x69;&#x61;&#x74;&#x69;&#x6F;&#x6E;&#x2E;&#x6E;&#x65;&#x74;)\
 **Facebook:** [facebook.com/OrthodoxToowoomba](https://www.facebook.com/OrthodoxToowoomba) *(best location for service updates)*
 
-{{< figure src="/img/frerich_gospel.jpg" title="Fr. Erich reading the Gospel at the Divine Liturgy" >}}
